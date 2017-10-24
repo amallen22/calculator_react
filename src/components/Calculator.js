@@ -19,7 +19,7 @@ class Calculator extends Component {
 
     let finalValue;
 
-    if(this.state.value == "0"){
+    if(this.state.value === "0"){
       finalValue = keyValue
     } 
     else {
@@ -33,7 +33,8 @@ class Calculator extends Component {
   }
 
   calculate() {
-      
+    const result = eval(this.state.value)
+    this.setState({ value: result })
   }
 
   render() {
