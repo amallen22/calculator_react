@@ -1,0 +1,7 @@
+.screen {
+	border: 1px solid cyan;
+	background-color: #32eaea;
+	padding: 5px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
